@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+*{
+   
+    font-family: 'Pattaya', sans-serif; 
+}
+
+.m{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/image/p7.jpg");
+    
+    
+    
+    
+    
+    height: 80%; 
+    
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+}
+ul li{
+    display: inline-block;
+   
+}
+ul li a {
+    text-decoration: none;
+    color: red;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+   
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+ul li a:hover{
+    background-color:white;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+  
+}
+.main{
+    
+    max-width: 1200px;
+    margin:auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(100, 0, 0);
+    
+    font-size: 25px;
+   
+}
+.img2 {
+    float: right;
+  }
+  .clearfix {
+    overflow: auto;
+    border: 3px solid #4CAF50;
+    padding: 50px;
+    margin-top: 20px;
+  }
+  .q {
+    background-color: green;
+    text-align: center ;
+    font-size: x-large;
+  }
+ 
